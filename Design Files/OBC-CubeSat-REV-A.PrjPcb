@@ -1,6 +1,6 @@
 ﻿[Design]
 Version=1.0
-HierarchyMode=0
+HierarchyMode=3
 ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component_$RoomName
@@ -31,7 +31,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-IsProjectConflictPreventionWarningsEnabled=0
+IsProjectConflictPreventionWarningsEnabled=1
 ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
@@ -42,7 +42,7 @@ ReleaseVaultName=Dr. Vishwanath Karad MIT World Peace University-Educator Progra
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
-CrossRefPorts=3
+CrossRefPorts=2
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
@@ -120,7 +120,7 @@ GenerateClassCluster=0
 DocumentUniqueId=LYLDHBPH
 
 [Document5]
-DocumentPath=DDR3.SchDoc
+DocumentPath=LPDDR4.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -137,7 +137,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ZFLEOXMF
 
 [Document6]
-DocumentPath=Ethernet-Payload.SchDoc
+DocumentPath=ETH-Debug.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -154,40 +154,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VYAFBZXI
 
 [Document7]
-DocumentPath=EthernetSBand.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=11
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QCWYKWVF
-
-[Document8]
-DocumentPath=Ethernet-Debug.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=ZPYCWNYL
-
-[Document9]
 DocumentPath=RS485-Interface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -204,7 +170,24 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ERMHBBFV
 
-[Document10]
+[Document8]
+DocumentPath=EXT-Camera-Interface.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=11
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EVNWAFZM
+
+[Document9]
 DocumentPath=Memory.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TTPKDQAX
 
-[Document11]
+[Document10]
 DocumentPath=Sensors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +221,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PLKPTZJA
 
-[Document12]
+[Document11]
 DocumentPath=Harness.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -255,7 +238,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PQRSJCHP
 
-[Document13]
+[Document12]
 DocumentPath=OBC-QM.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JFGEJUTC
 
-[Document14]
+[Document13]
 DocumentPath=..\AD25\Library\STeRG-StandardLib\STeRG-ICs-Standard.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,7 +272,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NJQKJGJA
 
-[Document15]
+[Document14]
 DocumentPath=..\AD25\Library\STeRG-StandardLib\STeRG-ICs-Standard.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -306,7 +289,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HNRSPXBA
 
-[Document16]
+[Document15]
 DocumentPath=..\AD25\Library\STeRG-StandardLib\STeRG-Passives-Standard.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -323,7 +306,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document16]
 DocumentPath=..\AD25\Library\STeRG-StandardLib\STeRG-Passives-Standard.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +321,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=QUEMXFBU
 
 [Configuration1]
 Name=Sources
@@ -1404,16 +1387,24 @@ Net42=NetName=ETHPL.TXD3|NetColor=$00A8D7B6
 Net43=NetName=ETHPL.TXEN|NetColor=$00A8D7B6
 Net44=NetName=ETHPL_GND|NetColor=$00999999
 Net45=NetName=GND|NetColor=$00434343
-Net46=NetName=NetC39_1|NetColor=$002541CC
-Net47=NetName=SBAND_DE|NetColor=$00794DA6
-Net48=NetName=SBAND_RE|NetColor=$00794DA6
-Net49=NetName=SBAND_RX|NetColor=$00794DA6
-Net50=NetName=SBAND_TX|NetColor=$00794DA6
-Net51=NetName=UHF_DE|NetColor=$00794DA6
-Net52=NetName=UHF_RE|NetColor=$00794DA6
-Net53=NetName=UHF_RX|NetColor=$00794DA6
-Net54=NetName=UHF_TX|NetColor=$00794DA6
-Net55=NetName=VCC|NetColor=$00000F5B
+Net46=NetName=GNSS_DE|NetColor=$00794DA6
+Net47=NetName=GNSS_RE|NetColor=$00794DA6
+Net48=NetName=GNSS_RX|NetColor=$00794DA6
+Net49=NetName=GNSS_TX|NetColor=$00794DA6
+Net50=NetName=NetC39_1|NetColor=$002541CC
+Net51=NetName=PAYLOAD_DE|NetColor=$00794DA6
+Net52=NetName=PAYLOAD_RE|NetColor=$00794DA6
+Net53=NetName=PAYLOAD_RX|NetColor=$00794DA6
+Net54=NetName=PAYLOAD_TX|NetColor=$00794DA6
+Net55=NetName=SBAND_DE|NetColor=$00794DA6
+Net56=NetName=SBAND_RE|NetColor=$00794DA6
+Net57=NetName=SBAND_RX|NetColor=$00794DA6
+Net58=NetName=SBAND_TX|NetColor=$00794DA6
+Net59=NetName=UHF_DE|NetColor=$00794DA6
+Net60=NetName=UHF_RE|NetColor=$00794DA6
+Net61=NetName=UHF_RX|NetColor=$00794DA6
+Net62=NetName=UHF_TX|NetColor=$00794DA6
+Net63=NetName=VCC|NetColor=$00000F5B
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
